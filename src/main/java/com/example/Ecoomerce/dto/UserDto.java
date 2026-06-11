@@ -7,10 +7,10 @@ import lombok.*;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class RegisterDto {
+public class UserDto {
 
 
-    public  String name;
+    public  String userName;
     public  String email;
     public  String password;
     public  String phoneNumber;

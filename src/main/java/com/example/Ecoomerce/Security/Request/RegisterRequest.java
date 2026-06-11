@@ -1,4 +1,4 @@
-package com.example.Ecoomerce.model;
+package com.example.Ecoomerce.Security;
 
 
 import jakarta.persistence.*;
@@ -13,7 +13,7 @@ import lombok.*;
 @NoArgsConstructor
 @Getter
 @Setter
-public class Register {
+public class RegisterRequest {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
